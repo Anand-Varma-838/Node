@@ -3,8 +3,6 @@ var yargs = require("yargs");
 var chalk = require("chalk");
 var list = require("./list.json");
 var functions = require("./functions")
-var error = chalk.bold.red;
-var warning = chalk.bold.keyword('orange');
 
 yargs.command({
     command: 'add',
